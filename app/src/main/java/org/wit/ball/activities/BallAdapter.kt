@@ -11,8 +11,7 @@ import kotlinx.android.synthetic.main.activity_ball.view.*
 import kotlinx.android.synthetic.main.card_ball.view.*
 import kotlinx.android.synthetic.main.card_ball.view.ballTitle
 import kotlinx.android.synthetic.main.card_ball.view.description
-import kotlinx.android.synthetic.main.card_ball.view.model
-import kotlinx.android.synthetic.main.card_ball.view.doors
+
 import kotlinx.android.synthetic.main.card_ball.view.enginesize
 
 import org.wit.ball.R

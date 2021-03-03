@@ -15,7 +15,8 @@ package="org.wit.ball">
     android:supportsRtl="true"
     android:theme="@style/AppTheme">
     <activity android:name="org.wit.ball.activities.BallActivity"></activity>
-    <activity android:name="org.wit.ball.activities.BallListActivity">
+    <activity android:name="org.wit.ball.activities.BallListActivity"></activity>
+    <activity android:name="org.wit.ball.activities.Fixtures">
 
 
 
@@ -33,9 +34,8 @@ package="org.wit.ball">
     <meta-data
         android:name="com.google.android.geo.API_KEY"
         android:value="AIzaSyBMhsyn_5lhk-jYUXzG0AKLl4ZqcGM3DrI" />
-    <activity
-        android:name="org.wit.ball.activities.MapsActivity"
-        android:label="@string/title_activity_maps"></activity>
+
+
 </application>
 
 </manifest>

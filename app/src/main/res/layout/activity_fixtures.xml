@@ -102,45 +102,7 @@
                     android:textSize="14sp" />
 
 
-                <Button
-                    android:id="@+id/chooseImage"
-                    android:layout_width="210dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="26dp"
-                    android:background="#116A12"
 
-                    android:text="@string/button_addImage"
-                    android:textColor="@color/colorPrimary"
-                    android:textSize="16sp" />
-
-                <ImageView
-                    android:id="@+id/ballImage"
-                    android:layout_width="80dp"
-                    android:layout_height="50dp"
-                    android:contentDescription="@string/ball_image"
-                    app:srcCompat="@mipmap/ic_launcher" />
-
-                <Button
-                    android:id="@+id/btnAdd"
-                    android:layout_width="162dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="60dp"
-                    android:background="#29731B"
-                    android:stateListAnimator="@null"
-                    android:text="@string/button_addBall"
-                    android:textColor="@color/colorPrimary"
-                    android:textSize="16sp" />
-
-                <Button
-                    android:id="@+id/btnFixtures"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="90dp"
-                    android:background="#29731B"
-                    android:stateListAnimator="@null"
-                    android:text="@string/button_addBall"
-                    android:textColor="@color/colorPrimary"
-                    android:textSize="16sp" />
 
 
             </LinearLayout>
@@ -148,3 +110,4 @@
 
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
+

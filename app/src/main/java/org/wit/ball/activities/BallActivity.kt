@@ -6,6 +6,7 @@
 
 package org.wit.ball.activities
 
+import android.annotation.SuppressLint
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
@@ -37,6 +38,7 @@ class BallActivity : AppCompatActivity(), AnkoLogger {
     var edit = false;
 
 
+    @SuppressLint("MissingSuperCall")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ball)
@@ -61,21 +63,16 @@ class BallActivity : AppCompatActivity(), AnkoLogger {
             }
             btnAdd.setText(R.string.save_ball)
 
-        }
-
-
-
-        ballLocation.setOnClickListener {
-            val location = Location(52.245696, -7.139102, 15f)
-            if (ball.zoom != 0f) {
-                location.lat =  ball.lat
-                location.lng = ball.lng
-                location.zoom = ball.zoom
-            }
-            startActivityForResult(intentFor<MapsActivity>().putExtra("location", location), LOCATION_REQUEST)
 
 
         }
+
+
+
+
+
+
+
 
 
 
@@ -133,12 +130,26 @@ class BallActivity : AppCompatActivity(), AnkoLogger {
             showImagePicker(this, IMAGE_REQUEST)
         }
 
+
+        btnFixtures.setOnClickListener {
+            val intent = Intent(this, Fixtures::class.java)
+            startActivity(intent)
+
+
+        }
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_ball, menu)
         return super.onCreateOptionsMenu(menu)
     }
+
+
+
+
+
+
     // delete selected car method.
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
         when (item?.itemId) {
@@ -152,6 +163,10 @@ class BallActivity : AppCompatActivity(), AnkoLogger {
         }
         return super.onOptionsItemSelected(item)
     }
+
+
+
+
 
 
 
