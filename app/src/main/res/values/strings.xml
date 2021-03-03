@@ -17,7 +17,7 @@
     <string name="ball_image">Player Image</string>
     <string name="button_location">Visit Us</string>
     <string name="title_activity_maps">Map</string>
-    <string name="menu_deleteBall">Delete ss</string>
+    <string name="menu_deleteBall">Delete </string>
     <string name="textview">TextView</string>
 
 </resources>
