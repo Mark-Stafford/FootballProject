@@ -37,7 +37,7 @@ class LoginActivity : AppCompatActivity() {
     }
 //validation once five failed attempts have occurred you will no longer be able to log in to the app
     private fun validate(userName: String, userPassword: String) {
-        if (userName == "Mark" && userPassword == "1234") {
+        if (userName == "Mark" && userPassword == "12345") {
             val intent = Intent(this@LoginActivity, BallListActivity::class.java)
             startActivity(intent)
         } else {
