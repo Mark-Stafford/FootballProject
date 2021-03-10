@@ -165,6 +165,19 @@
                     android:textColorLink="#0B0707"
                     android:textSize="28"
                     android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textView5696"
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:background="@color/colorPrimary"
+                    android:backgroundTint="#FFFFFF"
+                    android:lineSpacingExtra="0"
+                    android:text="5pm Sunday"
+                    android:textAlignment="center"
+                    android:textColor="#090808"
+                    android:textColorLink="#0B0707"
+                    android:textSize="28"
+                    android:textStyle="bold" />
             </LinearLayout>
         </ScrollView>
 
