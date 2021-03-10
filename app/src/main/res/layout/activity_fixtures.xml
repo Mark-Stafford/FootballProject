@@ -32,14 +32,6 @@
                 android:layout_height="wrap_content"
                 app:titleTextColor="@color/colorPrimary" />
 
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Add Player"
-                android:textColor="#FFFFFD"
-                android:textSize="18sp"
-                android:textStyle="bold|italic" />
         </android.support.design.widget.AppBarLayout>
 
         <ScrollView
@@ -53,58 +45,126 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <android.support.design.widget.TextInputEditText
-                    android:id="@+id/ballTitle"
-                    android:layout_width="match_parent"
-                    android:layout_height="51dp"
-                    android:layout_margin="8dp"
-                    android:background="#FF5722"
-                    android:backgroundTint="#80CBC4"
-                    android:hint="@string/hint_ballTitle"
-                    android:inputType="text"
-                    android:maxLength="25"
-                    android:maxLines="1"
-                    android:padding="8dp"
-                    android:textColor="#000000"
-                    android:textColorHint="#000000"
-                    android:textSize="14sp" />
-
-                <android.support.design.widget.TextInputEditText
-                    android:id="@+id/description"
+                <TextView
+                    android:id="@+id/textView3"
                     android:layout_width="match_parent"
                     android:layout_height="49dp"
-                    android:layout_margin="8dp"
-                    android:background="#FF5722"
-                    android:backgroundTint="#80CBC4"
-                    android:hint="@string/hint_ballDescription"
-                    android:inputType="text"
-                    android:maxLength="25"
-                    android:maxLines="1"
-                    android:padding="8dp"
-                    android:textColor="#000000"
-                    android:textColorHint="#1D0101"
-                    android:textSize="14sp" />
+                    android:background="@color/colorPrimary"
+                    android:backgroundTint="#FFFFFF"
+                    android:lineSpacingExtra="0"
+                    android:text="Manchester United Vs Chelsea"
+                    android:textAlignment="center"
+                    android:textColor="#090808"
+                    android:textColorLink="#0B0707"
+                    android:textSize="28"
+                    android:textStyle="bold" />
 
-                <android.support.design.widget.TextInputEditText
-                    android:id="@+id/enginesize"
+                <TextView
+                    android:id="@+id/textView56"
                     android:layout_width="match_parent"
-                    android:layout_height="54dp"
-                    android:layout_margin="8dp"
-                    android:background="#80CBC4"
-                    android:backgroundTint="#80CBC4"
-                    android:hint="@string/hint_ballEngineSize"
-                    android:inputType="text"
-                    android:maxLength="25"
-                    android:maxLines="1"
-                    android:padding="8dp"
-                    android:textColor="#000000"
-                    android:textColorHint="#130000"
-                    android:textSize="14sp" />
+                    android:layout_height="49dp"
+                    android:background="@color/colorPrimary"
+                    android:backgroundTint="#FFFFFF"
+                    android:lineSpacingExtra="0"
+                    android:text="3pm Saturday"
+                    android:textAlignment="center"
+                    android:textColor="#090808"
+                    android:textColorLink="#0B0707"
+                    android:textSize="28"
+                    android:textStyle="bold" />
 
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:background="@color/colorPrimary"
+                    android:backgroundTint="#FFFFFF"
+                    android:lineSpacingExtra="0"
+                    android:text="Arsenal Vs Burnley"
+                    android:textAlignment="center"
+                    android:textColor="#090808"
+                    android:textColorLink="#0B0707"
+                    android:textSize="28"
+                    android:textStyle="bold" />
 
-
-
-
+                <TextView
+                    android:id="@+id/textView125"
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:background="@color/colorPrimary"
+                    android:backgroundTint="#FFFFFF"
+                    android:lineSpacingExtra="0"
+                    android:text="5pm Sunday"
+                    android:textAlignment="center"
+                    android:textColor="#090808"
+                    android:textColorLink="#0B0707"
+                    android:textSize="28"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textView885"
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:background="@color/colorPrimary"
+                    android:backgroundTint="#FFFFFF"
+                    android:lineSpacingExtra="0"
+                    android:text="5pm Sunday"
+                    android:textAlignment="center"
+                    android:textColor="#090808"
+                    android:textColorLink="#0B0707"
+                    android:textSize="28"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textView555"
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:background="@color/colorPrimary"
+                    android:backgroundTint="#FFFFFF"
+                    android:lineSpacingExtra="0"
+                    android:text="5pm Sunday"
+                    android:textAlignment="center"
+                    android:textColor="#090808"
+                    android:textColorLink="#0B0707"
+                    android:textSize="28"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textView665"
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:background="@color/colorPrimary"
+                    android:backgroundTint="#FFFFFF"
+                    android:lineSpacingExtra="0"
+                    android:text="5pm Sunday"
+                    android:textAlignment="center"
+                    android:textColor="#090808"
+                    android:textColorLink="#0B0707"
+                    android:textSize="28"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textView445"
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:background="@color/colorPrimary"
+                    android:backgroundTint="#FFFFFF"
+                    android:lineSpacingExtra="0"
+                    android:text="5pm Sunday"
+                    android:textAlignment="center"
+                    android:textColor="#090808"
+                    android:textColorLink="#0B0707"
+                    android:textSize="28"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textView566"
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:background="@color/colorPrimary"
+                    android:backgroundTint="#FFFFFF"
+                    android:lineSpacingExtra="0"
+                    android:text="5pm Sunday"
+                    android:textAlignment="center"
+                    android:textColor="#090808"
+                    android:textColorLink="#0B0707"
+                    android:textSize="28"
+                    android:textStyle="bold" />
             </LinearLayout>
         </ScrollView>
 
