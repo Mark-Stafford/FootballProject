@@ -19,6 +19,9 @@
     <string name="title_activity_maps">Map</string>
     <string name="menu_deleteBall">Delete </string>
     <string name="textview">TextView</string>
-    <string name="textviews">TextViews</string>
+    <string name="name">Name</string>
+    <string name="login">Login</string>
+    <string name="rate_this_app">Rate This App</string>
+    <string name="password">Password</string>
 
 </resources>

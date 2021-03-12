@@ -20,6 +20,7 @@ import org.wit.ball.helpers.showImagePicker
 import org.wit.ball.main.MainApp
 import org.wit.ball.models.Location
 import android.content.Intent
+import android.media.Image
 import kotlinx.android.synthetic.main.activity_ball.ballTitle
 import kotlinx.android.synthetic.main.activity_ball.description
 

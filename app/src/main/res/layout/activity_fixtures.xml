@@ -29,7 +29,7 @@
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbarAdd"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="17dp"
                 app:titleTextColor="@color/colorPrimary" />
 
             <TextView
@@ -39,7 +39,7 @@
                 android:text="Upcoming Fixtures"
                 android:textAlignment="center"
                 android:textColor="#FDF9F9"
-                android:textSize="30"
+                android:textSize="30dp"
                 android:textStyle="bold|italic" />
 
         </android.support.design.widget.AppBarLayout>
@@ -61,12 +61,12 @@
                     android:layout_height="49dp"
                     android:background="@color/colorPrimary"
                     android:backgroundTint="#FFFFFF"
-                    android:lineSpacingExtra="0"
+                    android:lineSpacingExtra="0dp"
                     android:text="Manchester United Vs Chelsea"
                     android:textAlignment="center"
                     android:textColor="#090808"
                     android:textColorLink="#0B0707"
-                    android:textSize="28"
+                    android:textSize="28dp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -75,12 +75,12 @@
                     android:layout_height="49dp"
                     android:background="@color/colorPrimary"
                     android:backgroundTint="#FFFFFF"
-                    android:lineSpacingExtra="0"
+                    android:lineSpacingExtra="0dp"
                     android:text="3pm Saturday"
                     android:textAlignment="center"
                     android:textColor="#090808"
                     android:textColorLink="#0B0707"
-                    android:textSize="28"
+                    android:textSize="28dp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -89,12 +89,12 @@
                     android:layout_height="49dp"
                     android:background="@color/colorPrimary"
                     android:backgroundTint="#FFFFFF"
-                    android:lineSpacingExtra="0"
+                    android:lineSpacingExtra="0dp"
                     android:text="Arsenal Vs Burnley"
                     android:textAlignment="center"
                     android:textColor="#090808"
                     android:textColorLink="#0B0707"
-                    android:textSize="28"
+                    android:textSize="28dp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -103,12 +103,12 @@
                     android:layout_height="49dp"
                     android:background="@color/colorPrimary"
                     android:backgroundTint="#FFFFFF"
-                    android:lineSpacingExtra="0"
+                    android:lineSpacingExtra="0dp"
                     android:text="5pm Sunday"
                     android:textAlignment="center"
                     android:textColor="#090808"
                     android:textColorLink="#0B0707"
-                    android:textSize="28"
+                    android:textSize="28dp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -117,12 +117,12 @@
                     android:layout_height="49dp"
                     android:background="@color/colorPrimary"
                     android:backgroundTint="#FFFFFF"
-                    android:lineSpacingExtra="0"
+                    android:lineSpacingExtra="0dp"
                     android:text="Manchester City Vs Brighton"
                     android:textAlignment="center"
                     android:textColor="#090808"
                     android:textColorLink="#0B0707"
-                    android:textSize="28"
+                    android:textSize="28dp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -131,12 +131,12 @@
                     android:layout_height="49dp"
                     android:background="@color/colorPrimary"
                     android:backgroundTint="#FFFFFF"
-                    android:lineSpacingExtra="0"
+                    android:lineSpacingExtra="0dp"
                     android:text="3pm Sunday"
                     android:textAlignment="center"
                     android:textColor="#090808"
                     android:textColorLink="#0B0707"
-                    android:textSize="28"
+                    android:textSize="28dp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -145,12 +145,12 @@
                     android:layout_height="49dp"
                     android:background="@color/colorPrimary"
                     android:backgroundTint="#FFFFFF"
-                    android:lineSpacingExtra="0"
+                    android:lineSpacingExtra="0dp"
                     android:text="Leeds Vs Leicester"
                     android:textAlignment="center"
                     android:textColor="#090808"
                     android:textColorLink="#0B0707"
-                    android:textSize="28"
+                    android:textSize="28dp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -159,12 +159,12 @@
                     android:layout_height="49dp"
                     android:background="@color/colorPrimary"
                     android:backgroundTint="#FFFFFF"
-                    android:lineSpacingExtra="0"
+                    android:lineSpacingExtra="0dp"
                     android:text="7.30pm Monday"
                     android:textAlignment="center"
                     android:textColor="#090808"
                     android:textColorLink="#0B0707"
-                    android:textSize="28"
+                    android:textSize="28dp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -173,12 +173,12 @@
                     android:layout_height="49dp"
                     android:background="@color/colorPrimary"
                     android:backgroundTint="#FFFFFF"
-                    android:lineSpacingExtra="0"
+                    android:lineSpacingExtra="0dp"
                     android:text="Sheffield Utd Vs West Brom"
                     android:textAlignment="center"
                     android:textColor="#090808"
                     android:textColorLink="#0B0707"
-                    android:textSize="28"
+                    android:textSize="28dp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -187,12 +187,12 @@
                     android:layout_height="49dp"
                     android:background="@color/colorPrimary"
                     android:backgroundTint="#FFFFFF"
-                    android:lineSpacingExtra="0"
+                    android:lineSpacingExtra="0dp"
                     android:text="West Ham vs Norwich"
                     android:textAlignment="center"
                     android:textColor="#090808"
                     android:textColorLink="#0B0707"
-                    android:textSize="28"
+                    android:textSize="28dp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -201,12 +201,12 @@
                     android:layout_height="49dp"
                     android:background="@color/colorPrimary"
                     android:backgroundTint="#FFFFFF"
-                    android:lineSpacingExtra="0"
+                    android:lineSpacingExtra="0dp"
                     android:text="1pm Wednesday"
                     android:textAlignment="center"
                     android:textColor="#090808"
                     android:textColorLink="#0B0707"
-                    android:textSize="28"
+                    android:textSize="28dp"
                     android:textStyle="bold" />
             </LinearLayout>
         </ScrollView>
