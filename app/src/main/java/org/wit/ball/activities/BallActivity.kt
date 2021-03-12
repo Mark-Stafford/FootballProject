@@ -57,7 +57,7 @@ class BallActivity : AppCompatActivity(), AnkoLogger {
 
 
 
-// Edit player details such as model and description // takes what the user changing these fields too and saves.
+// Edit player details  // takes what the user changing these fields too and saves.
         if (intent.hasExtra("ball_edit")) {
             edit = true
             ball = intent.extras.getParcelable<BallModel>("ball_edit")
