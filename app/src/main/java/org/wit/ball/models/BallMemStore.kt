@@ -26,16 +26,16 @@ class BallMemStore : BallStore, AnkoLogger {
         logAll()
     }
 
-    override fun update(car: BallModel) {
-        var foundBall: BallModel? = balls.find { p -> p.id == car.id }
+    override fun update(ball: BallModel) {
+        var foundBall: BallModel? = balls.find { p -> p.id == ball.id }
         if (foundBall != null) {
-            foundBall.title = car.title
-            foundBall.description = car.description
-            foundBall.enginesize = car.enginesize
-            foundBall.image = car.image
-            foundBall.lat = car.lat
-            foundBall.lng = car.lng
-            foundBall.zoom = car.zoom
+            foundBall.title = ball.title
+            foundBall.description = ball.description
+            foundBall.country = ball.country
+            foundBall.image = ball.image
+            foundBall.lat = ball.lat
+            foundBall.lng = ball.lng
+            foundBall.zoom = ball.zoom
             logAll()
         }
     }
@@ -44,8 +44,8 @@ class BallMemStore : BallStore, AnkoLogger {
         balls.forEach {info("${it}")}
     }
 
-    override fun delete(car: BallModel) {
-        balls.remove(car)
+    override fun delete(ball: BallModel) {
+        balls.remove(ball)
     }
 
 }

@@ -44,7 +44,7 @@
             android:layout_toEndOf="@+id/imageIcon" />
 
         <TextView
-            android:id="@+id/enginesize"
+            android:id="@+id/country"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/ballTitle"

@@ -51,7 +51,7 @@ package org.wit.ball.models
             if (foundBall != null) {
                 foundBall.title = ball.title
                 foundBall.description = ball.description
-                foundBall.enginesize = ball.enginesize
+                foundBall.country = ball.country
                 foundBall.image = ball.image
                 foundBall.lat = ball.lat
                 foundBall.lng = ball.lng

@@ -86,13 +86,13 @@
                     android:textSize="14sp" />
 
                 <android.support.design.widget.TextInputEditText
-                    android:id="@+id/enginesize"
+                    android:id="@+id/country"
                     android:layout_width="match_parent"
                     android:layout_height="54dp"
                     android:layout_margin="8dp"
                     android:background="#80CBC4"
                     android:backgroundTint="#80CBC4"
-                    android:hint="@string/hint_ballEngineSize"
+                    android:hint="@string/hint_ballCountry"
                     android:inputType="text"
                     android:maxLength="25"
                     android:maxLines="1"

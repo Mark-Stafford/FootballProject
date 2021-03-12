@@ -5,11 +5,11 @@
     <string name="button_return">View Players</string>
     <string name="hint_ballTitle">Player Name</string>
     <string name="hint_ballDescription">Club </string>
-    <string name="hint_ballEngineSize">Country </string>
+    <string name="hint_ballCountry">Country </string>
     <string name="menu_addBall">Add</string>
     <string name="menu_cancelBall">Cancel</string>
     <string name="enter_ball_title"> Please enter all player details </string>
-    <string name="enter_ball_enginesize"> Please enter the players country  </string>
+    <string name="enter_ball_country"> Please enter the players country  </string>
     <string name="enter_balldescription_"> Please enter the players club </string>
 
     <string name="save_ball"> Save Ball </string>

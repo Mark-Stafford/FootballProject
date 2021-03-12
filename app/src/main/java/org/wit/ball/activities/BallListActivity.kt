@@ -55,7 +55,7 @@ class BallListActivity : AppCompatActivity(), BallListener {
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-        //recyclerView is a widget in activity_car_list.xml
+
         recyclerView.adapter?.notifyDataSetChanged()
         loadBalls()
         super.onActivityResult(requestCode, resultCode, data)

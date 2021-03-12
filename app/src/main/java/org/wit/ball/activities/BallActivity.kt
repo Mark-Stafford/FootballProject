@@ -23,7 +23,7 @@ import android.content.Intent
 import kotlinx.android.synthetic.main.activity_ball.ballTitle
 import kotlinx.android.synthetic.main.activity_ball.description
 
-import kotlinx.android.synthetic.main.activity_ball.enginesize
+import kotlinx.android.synthetic.main.activity_ball.country
 
 import org.jetbrains.anko.*
 
@@ -57,13 +57,13 @@ class BallActivity : AppCompatActivity(), AnkoLogger {
 
 
 
-// Edit car details such as model and description // takes what the user changing these fields too and saves.
+// Edit player details such as model and description // takes what the user changing these fields too and saves.
         if (intent.hasExtra("ball_edit")) {
             edit = true
             ball = intent.extras.getParcelable<BallModel>("ball_edit")
             ballTitle.setText(ball.title)
             description.setText(ball.description)
-            enginesize.setText(ball.enginesize)
+            country.setText(ball.country)
             ballImage.setImageBitmap(readImageFromPath(this, ball.image))
             if (ball.image != null){
                 chooseImage.setText(R.string.change_ball_image)
@@ -92,14 +92,14 @@ class BallActivity : AppCompatActivity(), AnkoLogger {
 
 
 
-// Adding car to the recycler view also if all fields are not entered by the user the car will not be added to the list.
+// Adding player to the recycler view also if all fields are not entered by the user the player will not be added to the list.
         btnAdd.setOnClickListener() {
             ball.title = ballTitle.text.toString()
             ball.description = description.text.toString()
-            ball.enginesize = enginesize.text.toString()
+            ball.country = country.text.toString()
 
 
-            if (ball.title.isEmpty() or ball.description.isEmpty() or ball.enginesize.isEmpty())
+            if (ball.title.isEmpty() or ball.description.isEmpty() or ball.country.isEmpty())
             {
                 toast(R.string.enter_ball_title)
 
@@ -113,7 +113,7 @@ class BallActivity : AppCompatActivity(), AnkoLogger {
                 }
 
 
-                if (ball.title.isNotEmpty() and ball.description.isNotEmpty() and ball.enginesize.isNotEmpty()
+                if (ball.title.isNotEmpty() and ball.description.isNotEmpty() and ball.country.isNotEmpty()
 
                 ) {
                     app.balls.update(ball.copy())
@@ -157,7 +157,7 @@ class BallActivity : AppCompatActivity(), AnkoLogger {
 
 
 
-    // delete selected car method.
+    // delete selected player
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
         when (item?.itemId) {
             R.id.item_delete -> {
@@ -177,7 +177,7 @@ class BallActivity : AppCompatActivity(), AnkoLogger {
 
 
 
-    //select car image and location.
+    //select player image and location.
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         when (requestCode) {

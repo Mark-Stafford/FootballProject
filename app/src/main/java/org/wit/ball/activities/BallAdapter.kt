@@ -12,7 +12,7 @@ import kotlinx.android.synthetic.main.card_ball.view.*
 import kotlinx.android.synthetic.main.card_ball.view.ballTitle
 import kotlinx.android.synthetic.main.card_ball.view.description
 
-import kotlinx.android.synthetic.main.card_ball.view.enginesize
+import kotlinx.android.synthetic.main.card_ball.view.country
 
 import org.wit.ball.R
 import org.wit.ball.helpers.readImageFromPath
@@ -41,7 +41,7 @@ class BallAdapter constructor(private var balls: List<BallModel>,
         fun bind(ball: BallModel,  listener : BallListener) {
             itemView.ballTitle.text = ball.title
             itemView.description.text = ball.description
-            itemView.enginesize.text = ball.enginesize
+            itemView.country.text = ball.country
             itemView.imageIcon.setImageBitmap(readImageFromPath(itemView.context, ball.image))
             itemView.setOnClickListener { listener.onBallClick(ball) }
         }
