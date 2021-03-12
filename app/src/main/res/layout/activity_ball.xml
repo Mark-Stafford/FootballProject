@@ -36,7 +36,7 @@
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Add Player"
+                android:text="Add Fantasy Player"
                 android:textColor="#FFFFFD"
                 android:textSize="18sp"
                 android:textStyle="bold|italic" />
