@@ -1,6 +1,6 @@
 //Mark Stafford
-//Mobile App Assignment - SSD Year 2
-//Lecturer - Rob O Connor
+//Mobile App Assignment - SSD Year 3
+
 package org.wit.ball.helpers
 
 import android.app.Activity
