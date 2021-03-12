@@ -1,6 +1,5 @@
 //Mark Stafford
-//Mobile App Assignment - SSD Year 2
-//Lecturer - Rob O Connor
+
 package org.wit.ball
 
 import org.junit.Test
