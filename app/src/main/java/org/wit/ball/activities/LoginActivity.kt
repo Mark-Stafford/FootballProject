@@ -12,6 +12,9 @@ import org.jetbrains.anko.*
 
 class LoginActivity : AppCompatActivity() {
 
+    lateinit var btn : Button
+    lateinit var rb : RatingBar
+
     private var Name: EditText? = null
     private var Password: EditText? = null
     private var Info: TextView? = null
@@ -23,6 +26,9 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
+        btn = findViewById<View>(R.id.button) as Button
+        rb = findViewById<View>(R.id.rb) as RatingBar
+
         Name = findViewById(R.id.etName) as EditText
         Password = findViewById(R.id.etPassword) as EditText
         Info = findViewById(R.id.tvInfo) as TextView
@@ -31,6 +37,13 @@ class LoginActivity : AppCompatActivity() {
         Info!!.text = "No of attempts remaining: 5"
 
         Login!!.setOnClickListener { validate(Name!!.text.toString(), Password!!.text.toString()) }
+    }
+
+     fun click(view: View)
+    {
+
+        val ratingvalue = rb.rating
+        Toast.makeText(this, "rating is:" + ratingvalue, Toast.LENGTH_LONG).show()
     }
     //validation once five failed attempts have occurred you will no longer be able to log in to the app
     private fun validate(userName: String, userPassword: String) {
