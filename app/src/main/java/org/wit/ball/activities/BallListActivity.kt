@@ -31,7 +31,10 @@ class BallListActivity : AppCompatActivity(), BallListener {
 
         toolbarMain.title = title
         setSupportActionBar(toolbarMain)
+
+
     }
+
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_main, menu)

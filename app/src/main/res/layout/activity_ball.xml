@@ -101,17 +101,10 @@
                     android:textColorHint="#130000"
                     android:textSize="14sp" />
 
-                <ImageView
-                    android:id="@+id/ballImage"
-                    android:contentDescription="@string/ball_image"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@mipmap/ic_launcher" />
-
 
                 <Button
                     android:id="@+id/chooseImage"
-                    android:layout_width="320dp"
+                    android:layout_width="310dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="50dp"
                     android:background="#116A12"
@@ -120,11 +113,18 @@
                     android:textColor="@color/colorPrimary"
                     android:textSize="16sp" />
 
+                <ImageView
+                    android:id="@+id/ballImage"
+                    android:layout_width="400dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="@string/ball_image"
+                    app:srcCompat="@drawable/pm" />
+
                 <Button
                     android:id="@+id/btnAdd"
-                    android:layout_width="320dp"
+                    android:layout_width="300dp"
                     android:layout_height="wrap_content"
-                    android:layout_margin="50dp"
+                    android:layout_margin="60dp"
                     android:background="#29731B"
                     android:stateListAnimator="@null"
                     android:text="@string/button_addBall"
@@ -135,10 +135,10 @@
                     android:id="@+id/btnFixtures"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="50dp"
+                    android:layout_margin="10dp"
                     android:background="#29731B"
                     android:stateListAnimator="@null"
-                    android:text="@string/button_addBall"
+                    android:text="@string/button_fixture"
                     android:textColor="@color/colorPrimary"
                     android:textSize="16sp" />
 
@@ -148,3 +148,4 @@
 
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
+

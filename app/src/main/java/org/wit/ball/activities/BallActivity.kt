@@ -20,7 +20,6 @@ import org.wit.ball.helpers.showImagePicker
 import org.wit.ball.main.MainApp
 import org.wit.ball.models.Location
 import android.content.Intent
-import android.media.Image
 import kotlinx.android.synthetic.main.activity_ball.ballTitle
 import kotlinx.android.synthetic.main.activity_ball.description
 
@@ -39,12 +38,19 @@ class BallActivity : AppCompatActivity(), AnkoLogger {
     var edit = false;
 
 
+
+
     @SuppressLint("MissingSuperCall")
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_ball)
         app = application as MainApp
         var edit = false
+
+
 
         toolbarAdd.title = title
         setSupportActionBar(toolbarAdd)
@@ -67,6 +73,12 @@ class BallActivity : AppCompatActivity(), AnkoLogger {
 
 
         }
+
+
+
+
+
+
 
 
 
@@ -111,15 +123,6 @@ class BallActivity : AppCompatActivity(), AnkoLogger {
             }
 
 
-
-
-
-
-
-
-
-
-
             info("add Button Pressed: $ballTitle")
             setResult(AppCompatActivity.RESULT_OK)
             finish()
@@ -131,19 +134,22 @@ class BallActivity : AppCompatActivity(), AnkoLogger {
             showImagePicker(this, IMAGE_REQUEST)
         }
 
-
         btnFixtures.setOnClickListener {
             val intent = Intent(this, Fixtures::class.java)
             startActivity(intent)
-
-
         }
+
 
     }
 
+
+
+
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+
         menuInflater.inflate(R.menu.menu_ball, menu)
         return super.onCreateOptionsMenu(menu)
+
     }
 
 
@@ -191,6 +197,8 @@ class BallActivity : AppCompatActivity(), AnkoLogger {
                 }
             }
         }
+
+
 
 
     }

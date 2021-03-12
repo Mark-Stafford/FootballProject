@@ -208,6 +208,17 @@
                     android:textColorLink="#0B0707"
                     android:textSize="28dp"
                     android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnReturn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="#29731B"
+                    android:stateListAnimator="@null"
+                    android:text="@string/button_return"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp" />
             </LinearLayout>
         </ScrollView>
 
