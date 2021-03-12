@@ -113,7 +113,7 @@
         android:layout_below="@+id/rb"
         android:layout_centerHorizontal="true"
         android:onClick="click"
-        android:text="click me"
+        android:text="Rate This App"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/rb"
         app:layout_constraintEnd_toEndOf="parent"

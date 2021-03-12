@@ -43,7 +43,7 @@ class LoginActivity : AppCompatActivity() {
     {
 
         val ratingvalue = rb.rating
-        Toast.makeText(this, "rating is:" + ratingvalue, Toast.LENGTH_LONG).show()
+        Toast.makeText(this, "app rating is:" + ratingvalue, Toast.LENGTH_LONG).show()
     }
     //validation once five failed attempts have occurred you will no longer be able to log in to the app
     private fun validate(userName: String, userPassword: String) {
